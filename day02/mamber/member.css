@@ -1,0 +1,19 @@
+.login {
+  color: white;
+  background-color: blue;
+  width: 300px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.login1 {
+  color: white;
+  background-color: black;
+  width: 300px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

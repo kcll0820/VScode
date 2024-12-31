@@ -1,0 +1,14 @@
+.all {
+  border: 1px solid #35c5f1;
+  color: white;
+  background-color: #35c5f1;
+  border-radius: 20px;
+  padding: 7px 10px 7px 10px;
+}
+.graypill {
+  border: 1px solid #e6e6e6;
+  color: black;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  padding: 7px 10px 7px 10px;
+}

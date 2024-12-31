@@ -1,0 +1,24 @@
+.login {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  padding: 10px 120px 10px 120px;
+  font-weight: 700;
+}
+.kakao {
+  border: 1px solid #fee600;
+  border-radius: 5px;
+  color: black;
+  background-color: #fee600;
+  padding: 10px 92px 10px 92px;
+  font-weight: 700;
+}
+.apple {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  padding: 10px 95px 10px 95px;
+  font-weight: 700;
+}
