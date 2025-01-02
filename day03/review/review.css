@@ -1,0 +1,54 @@
+.button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+}
+
+.red1 {
+  padding: 7px 10px;
+}
+
+.red2 {
+  padding: 10px 30px;
+}
+
+.red3 {
+  padding: 15px 100px;
+}
+
+.apple {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.google {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.mr {
+  border-radius: 20px;
+  padding: 5px 70px;
+  font-weight: 700;
+}
+
+.kakao {
+  color: black;
+  background-color: #fee600;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px;
+  font-weight: 700;
+}
+
+.chip {
+  color: black;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 2px;
+}

@@ -1,0 +1,36 @@
+.ab {
+  width: 300px;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div > img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.price {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.name {
+  color: #646464;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.comment {
+  color: #646464;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.buy {
+  color: #8d8d8d;
+  font-size: 10px;
+  margin-top: 10px;
+}
