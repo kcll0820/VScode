@@ -1,0 +1,46 @@
+.busan {
+  background-image: url("busan.jpg");
+}
+
+.gang {
+  background-image: url("gang.jpg");
+}
+
+.jeju {
+  background-image: url("jeju.jpg");
+}
+
+.pool {
+  background-image: url("pool.jpg");
+}
+
+.card {
+  width: 240px;
+  height: 340px;
+  background-size: cover;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div > p {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  line-height: 30px;
+}
+
+.title {
+  font-size: 11px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 13px;
+}
