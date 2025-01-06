@@ -1,0 +1,102 @@
+.circleLayout {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+  background-color: #f4faff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle > i {
+  font-size: 20px;
+}
+
+.circle > span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.click {
+  background-color: #d5efff;
+}
+
+.squareLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.square {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.purple {
+  background-color: #e1d9ff;
+}
+
+.aqua {
+  background-color: #d5efff;
+}
+
+.orange {
+  background-color: #ffdcd3;
+}
+
+.green {
+  background-color: #e6f7ed;
+}
+
+.yellow {
+  background-color: #fff7c2;
+}
+
+.blue {
+  background-color: #c1d0ff;
+}
+
+.icon2 {
+  width: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 9999px;
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sub {
+  font-size: 10px;
+  color: grey;
+}
+
+.main {
+  font-size: 30px;
+  font-weight: 700;
+}

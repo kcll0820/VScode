@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f4faff;
+  border-radius: 9999px;
+}
+
+.click {
+  background-color: #d5efff;
+}
+
+.circle > i {
+  font-size: 25px;
+}
+
+.circle > span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.coffee {
+  width: 200px;
+  height: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+
+.coffee > img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  width: fit-content;
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
+}
+
+.first {
+  background-color: red;
+  padding: 5px 10px;
+}
+
+.second {
+  background-color: blue;
+  padding: 5px 15px;
+}
+
+.menu {
+  font-weight: 700;
+  margin-left: 5px;
+}

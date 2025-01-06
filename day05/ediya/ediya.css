@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.coffee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  width: fit-content;
+  padding: 50px;
+  gap: 30px;
+}
+
+.coffee > img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s;
+}
+
+/* .coffee > img:hover {
+  transform: scale(1.1);
+} */
+
+.gift {
+  color: white;
+  background-color: blue;
+  border: none;
+  font-weight: 700;
+  padding: 4px;
+}
+
+.card {
+  position: relative;
+}
+
+.card:hover > .blur {
+  opacity: 1;
+}
+
+.blur {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: all 0.5s;
+  opacity: 0;
+}
