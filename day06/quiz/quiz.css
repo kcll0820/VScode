@@ -1,0 +1,106 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.phill {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 5px 15px;
+  transition: all 0.5s;
+}
+
+.phill > i {
+  font-size: 20px;
+}
+
+.phill > span {
+  font-size: 10px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.phill:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.red:hover {
+  background-color: red;
+}
+.orange:hover {
+  background-color: orange;
+}
+.yellow:hover {
+  background-color: yellow;
+}
+.green:hover {
+  background-color: green;
+}
+.blue:hover {
+  background-color: blue;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 100px 50px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    7deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 199, 42, 1) 83%
+  );
+}
+
+.card > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.job {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.sns {
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  width: 250px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 10px;
+}

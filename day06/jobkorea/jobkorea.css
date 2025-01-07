@@ -1,0 +1,60 @@
+.layout {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.company:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+
+.company > img {
+  object-fit: cover;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.day {
+  font-size: 11px;
+  color: gray;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.star {
+  margin-left: 5px;
+  font-size: 14px;
+}
