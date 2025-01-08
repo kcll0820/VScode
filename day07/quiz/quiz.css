@@ -1,0 +1,92 @@
+.kia {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+}
+
+.car {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.model {
+  font-size: 9px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 5px;
+  color: gray;
+}
+
+.kia > img {
+  padding: 20px 0px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.color {
+  font-size: 10px;
+  font-weight: 200;
+  color: gray;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  border-top: 1px solid #e6e6e6;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.won {
+  font-size: 12px;
+  line-height: 34px;
+  margin-left: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.black {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+}
+
+.white {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
