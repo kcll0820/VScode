@@ -1,0 +1,82 @@
+.card {
+  width: 350px;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > main > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.card > main > .name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.card > main > .job {
+  font-size: 12px;
+  color: gray;
+}
+
+.card > main > .btn1 {
+  color: white;
+  background-color: #8ec8f6;
+  border: 1px solid #8ec8f6;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 8px 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card > main > .menu {
+  display: flex;
+  align-items: center;
+}
+
+.card > main > .menu > button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.card > footer {
+}
+
+.card > footer > li {
+}
+
+.blue {
+  background-color: #0090ff;
+}
+
+.green {
+  background-color: #b8eae0;
+}
+
+.pink {
+  background-color: #f7def8;
+}
+
+.pupple {
+  background-color: #e1d9ff;
+}

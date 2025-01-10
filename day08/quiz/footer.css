@@ -1,0 +1,10 @@
+.bottom {
+  background-color: black;
+  padding: 50px;
+}
+
+.bottom > .box {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

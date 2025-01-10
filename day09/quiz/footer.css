@@ -1,0 +1,49 @@
+footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #1d3e56;
+  display: flex;
+  justify-content: center;
+}
+
+footer > .contents {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer > .contents > .icon {
+  display: flex;
+  gap: 10px;
+  color: #e6e6e6;
+  font-size: 25px;
+}
+
+footer > .contents > .title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #e6e6e6;
+}
+
+footer > .contents > .info {
+  color: #e6e6e6;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
