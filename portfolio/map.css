@@ -1,0 +1,26 @@
+.map {
+}
+
+.map_box {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 200px;
+}
+
+.map_box > strong {
+  font-size: 30px;
+}
+
+.map_box > span {
+  font-size: 20px;
+}
+
+.map_box > iframe {
+  width: 100%;
+  height: 400px;
+}
